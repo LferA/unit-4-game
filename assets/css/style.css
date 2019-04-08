@@ -1,4 +1,52 @@
+/* Body bg-image */
+body{
+    background-color: purple;
+    background-image: url("/assets/images/ImageBG.jpg");
+}
+/* Main */
+main{
+    background-color: rgb(192, 192, 192);
+    margin: auto;
+    width: 50%;
+    height: 100%;
+    padding: 15px;
+    border-color: orangered;
+    border-style: solid;
+    border-width: 0px 5px 0px 5px;
+    box-shadow: 10px 10px 40px 15px rgb(187, 62, 24);
+}
+.largetxt{
+    font-size: 2em;
+}
+
+.regular{
+    font-size: 1.5em;
+}
+
+#imageBox{
+    padding: 10px 150px;
+}
+
 div .character{
-    height: 50px;
-    width: 40px;
+    height: 70px;
+    width: 50px;
+    margin: 10px 25px;
+    border-style: solid;
+    border-width: 5px;
+}
+
+div .blueshadow{
+    box-shadow: 10px 10px blue;
+}
+
+div .redshadow{
+    box-shadow: 10px 10px red;
+}
+
+div .yellowshadow{
+    box-shadow: 10px 10px yellow;
+    }
+
+div .metalshadow{
+    box-shadow: 10px 10px #2C3539;
 }

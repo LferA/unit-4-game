@@ -11,28 +11,21 @@
     <title>Mega Game</title>
 </head>
 <body>
-
-    <div id="panelFeed">
-    <div id="RbtPoints"></div>
-    <div id="UsrPoints"></div>
-    <div id="Wins"></div>
-    <div id="Losses"></div>
-    </div>
-    <div id="imageBox">
-    <img id="image-1" class="character" src="/assets/images/megaman.jpg"></img>
-    <img id="image-2" class="character" src="/assets/images/megaman.jpg"></img>
-    <img id="image-3" class="character" src="/assets/images/megaman.jpg"></img>
-    <img id="image-4" class="character" src="/assets/images/megaman.jpg"></img>
-    </div>
-<script>
-    $("#image-1").on("click", function(){
-     addPoints(btn1)});
- $("#image-2").on("click", function(){
-     addPoints(btn2)});
- $("#image-3").on("click", function(){
-     addPoints(btn3)});
- $("#image-4").on("click", function(){
-     addPoints(btn4)});
-</script>
+    <main>
+        <div id="panelFeed">
+            <div class="mainPoints">
+            <p class="largetxt">Score Goal: <span id="RbtPoints"></span></p>
+            <p class="largetxt">User Points: <span id="UsrPoints"></span></p>
+            </div>
+            <p class="regular">Total Wins:<span id="Wins"></span></p>
+            <p class="regular">Total Losses: <span id="Losses"></span></p>
+        </div>
+        <div id="imageBox">
+            <img id="image-1" class="character blueshadow" src="/assets/images/megaman.jpg"></img>
+            <img id="image-2" class="character redshadow" src="/assets/images/protoman.jpg"></img>
+            <img id="image-3" class="character yellowshadow" src="/assets/images/GutsSoul.jpg"></img>
+            <img id="image-4" class="character metalshadow" src="/assets/images/MetalSoul.jpg"></img>
+        </div> 
+    </main>
 </body>
 </html>
